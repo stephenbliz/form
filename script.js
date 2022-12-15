@@ -12,7 +12,8 @@ const cardMonthly = document.querySelector('.card-monthly');
 const planCards = document.querySelectorAll('.plan-card');
 const addOns = document.querySelectorAll('.add-ons');
 const labels = document.querySelectorAll('add-ons-plan');
-console.log(labels);
+const mobileMenus = document.querySelectorAll('.mobile-item');
+console.log(mobileMenus);
 
 
 // .........regex patterns..........
@@ -57,6 +58,24 @@ menuItems[2].addEventListener('click', () => {
 menuItems[3].addEventListener('click', () => {
     location.replace('./step4.html');
 })
+
+mobileMenus[0].addEventListener('click', () => {
+    location.replace('./index.html');
+    back.style.visibility = 'hidden';
+})
+
+mobileMenus[1].addEventListener('click', () => {
+    location.replace('./step2.html');
+})
+
+mobileMenus[2].addEventListener('click', () => {
+    location.replace('./step3.html');
+})
+
+mobileMenus[3].addEventListener('click', () => {
+    location.replace('./step4.html');
+})
+
 
 next.addEventListener('click', (e) => {
     e.preventDefault();
