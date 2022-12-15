@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./images/favicon-32x32.png">
+    <title>Form</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-item step1">
+                <div class="nav-item-num step1">1</div>
+                <div class="nav-item-text step1">
+                    <div class="nav-item-text-div1 step1">step 1</div>
+                    <div class="nav-item-text-div2 step1">your info</div>
+                </div>
+            </div>
+
+            <div class="nav-item step2">
+                <div class="nav-item-num step2">2</div>
+                <div class="nav-item-text step2">
+                    <div class="nav-item-text-div1 step2">step 2</div>
+                    <div class="nav-item-text-div2 step2">select plan</div>
+                </div>
+            </div>
+
+            <div class="nav-item step3">
+                <div class="nav-item-num step3">3</div>
+                <div class="nav-item-text step3">
+                    <div class="nav-item-text-div1 step3">step 3</div>
+                    <div class="nav-item-text-div2 step3">adds-on</div>
+                </div>
+            </div>
+
+            <div class="nav-item step4">
+                <div class="nav-item-num step4">4</div>
+                <div class="nav-item-text step4">
+                    <div class="nav-item-text-div1 step4">step 4</div>
+                    <div class="nav-item-text-div2 step4">summary</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="section-wrapper">
+            <h1 class="section-heading">Personal info</h1>
+
+            <p class="section-para">
+                Please provide your name, email address, and phone number
+            </p>
+            <form class="input-wrapper">
+                <label for="nam" class="label">name</label>
+                <input type="text" id="nam" name="name" class="input" placeholder="e.g. Stephen123"required>
+    
+                <label for="email" class="label">email address</label>
+                <input type="text" id="email" name="email" class="input" placeholder="e.g. stephen123@lorem.com" required>
+    
+                <label for="phone" class="label">phone number</label>
+                <input type="phone" id="phone" name="phone" class="input" placeholder="e.g. +1 234 567 890" required>
+                <!-- <input type="submit" class="next nex" value="next step"> -->
+            </form>
+        </div>
+
+        <div class="slidder">
+            <div class="back">go back</div>
+            <div class="next">next step</div>
+        </div>
+       
+    </section>
+<script src="./script.js"></script>    
+</body>
+</html>
