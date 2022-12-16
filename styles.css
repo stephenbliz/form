@@ -555,7 +555,6 @@ body{
     }
     .section-wrapper{
         width: 85%;
-        /* margin-bottom: 1rem; */
         
     }
     .section-heading{
@@ -631,6 +630,11 @@ body{
         .add-ons-plan{
         width: 55%;
     }
+
+    .checkbox{
+        margin-top:auto;
+        margin-bottom:auto;
+}
     .total{
         width: 85%;
     }
